@@ -2548,7 +2548,7 @@
   (symbol (lib_id "Device:C") (at 30.48 168.91 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7a5db98e-098b-4c8c-b059-352783143f13)
-    (property "Reference" "C?" (id 0) (at 27.94 166.37 0)
+    (property "Reference" "C10" (id 0) (at 27.94 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uf" (id 1) (at 31.75 171.45 0)
@@ -2981,7 +2981,7 @@
       (reference "C5") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/7a5db98e-098b-4c8c-b059-352783143f13"
-      (reference "C?") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C10") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/e699c72f-08fa-49a4-8e27-5620c6780b10"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
