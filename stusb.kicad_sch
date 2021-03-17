@@ -66,13 +66,6 @@
         )
         (polyline
           (pts
-            (xy 0.127 1.524)
-            (xy 0.127 -1.651)
-          )
-          (stroke (width 0.508)) (fill (type outline))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.286)
             (xy 2.54 2.54)
           )
@@ -85,15 +78,6 @@
             (xy 0 0.254)
           )
           (stroke (width 0)) (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.889 -1.143)
-            (xy 1.397 -0.635)
-            (xy 1.905 -1.651)
-            (xy 0.889 -1.143)
-          )
-          (stroke (width 0)) (fill (type outline))
         )
         (polyline
           (pts
@@ -124,6 +108,22 @@
             (xy 2.54 -2.286)
           )
           (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.127 1.524)
+            (xy 0.127 -1.651)
+          )
+          (stroke (width 0.508)) (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0.889 -1.143)
+            (xy 1.397 -0.635)
+            (xy 1.905 -1.651)
+            (xy 0.889 -1.143)
+          )
+          (stroke (width 0)) (fill (type outline))
         )
       )
       (symbol "DTC143E_1_1"
@@ -214,9 +214,6 @@
         )
       )
       (symbol "USB_C_Plug_0_1"
-        (arc (start -7.62 -3.81) (end -6.35 -3.81) (radius (at -6.985 -3.81) (length 0.635) (angles -179.9 -0.1))
-          (stroke (width 0.254)) (fill (type outline))
-        )
         (arc (start -8.89 -3.81) (end -5.08 -3.81) (radius (at -6.985 -3.81) (length 1.905) (angles -179.9 -0.1))
           (stroke (width 0.508)) (fill (type none))
         )
@@ -227,16 +224,19 @@
           (stroke (width 0.508)) (fill (type none))
         )
         (arc (start -6.35 3.81) (end -7.62 3.81) (radius (at -6.985 3.81) (length 0.635) (angles 0.1 179.9))
+          (stroke (width 0.254)) (fill (type none))
+        )
+        (arc (start -7.62 -3.81) (end -6.35 -3.81) (radius (at -6.985 -3.81) (length 0.635) (angles -179.9 -0.1))
           (stroke (width 0.254)) (fill (type outline))
         )
         (arc (start -6.35 3.81) (end -7.62 3.81) (radius (at -6.985 3.81) (length 0.635) (angles 0.1 179.9))
-          (stroke (width 0.254)) (fill (type none))
-        )
-        (rectangle (start -10.16 27.94) (end 10.16 -35.56)
-          (stroke (width 0.254)) (fill (type background))
+          (stroke (width 0.254)) (fill (type outline))
         )
         (rectangle (start -7.62 -3.81) (end -6.35 3.81)
           (stroke (width 0.254)) (fill (type outline))
+        )
+        (rectangle (start -10.16 27.94) (end 10.16 -35.56)
+          (stroke (width 0.254)) (fill (type background))
         )
         (polyline
           (pts
@@ -1037,15 +1037,6 @@
         )
         (polyline
           (pts
-            (xy 2.286 0)
-            (xy 1.27 0.381)
-            (xy 1.27 -0.381)
-            (xy 2.286 0)
-          )
-          (stroke (width 0)) (fill (type outline))
-        )
-        (polyline
-          (pts
             (xy 2.794 -0.508)
             (xy 2.921 -0.381)
             (xy 3.683 -0.381)
@@ -1061,6 +1052,15 @@
             (xy 3.302 -0.381)
           )
           (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.286 0)
+            (xy 1.27 0.381)
+            (xy 1.27 -0.381)
+            (xy 2.286 0)
+          )
+          (stroke (width 0)) (fill (type outline))
         )
       )
       (symbol "FDS9435A_1_1"
@@ -2516,7 +2516,7 @@
     (uuid 69799eb9-afd0-4a61-b95d-3f3f0ae2af5d)
     (property "Reference" "Q4" (id 0) (at 181.61 19.2532 90))
     (property "Value" "IRF8736" (id 1) (at 181.61 21.5646 90))
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 179.705 22.86 0)
+    (property "Footprint" "precise:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 179.705 22.86 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF" (id 3) (at 181.61 27.94 90)
