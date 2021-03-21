@@ -1902,7 +1902,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 98f00298-5a49-4ad5-9f09-3a707b6d6a16)
   )
-  (text "level translate\n" (at 234.95 149.86 180)
+  (text "level translate\n" (at 233.68 147.32 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7016f9d1-c313-4b10-b1d7-71c0fd1e4710)
   )
@@ -2363,7 +2363,7 @@
     (property "Reference" "R1" (id 0) (at 54.61 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (id 1) (at 57.15 30.48 0)
+    (property "Value" "10k" (id 1) (at 57.15 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 55.88 34.798 90)
@@ -2567,10 +2567,10 @@
   (symbol (lib_id "Device:C") (at 34.29 41.91 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d87f4c9d-1774-438d-90e9-a972eb7d0a40)
-    (property "Reference" "C2" (id 0) (at 33.02 38.1 0)
+    (property "Reference" "C2" (id 0) (at 34.29 45.72 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 35.56 38.1 0)
+    (property "Value" "1uf" (id 1) (at 38.1 45.72 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 38.1 40.945 0)
@@ -2627,8 +2627,8 @@
     (property "Reference" "C1" (id 0) (at 236.22 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470uf" (id 1) (at 246.38 148.59 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Value" "470uf" (id 1) (at 236.22 149.86 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_Elec_10x10.2" (id 2) (at 243.535 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2810,8 +2810,8 @@
     (property "Reference" "RN1" (id 0) (at 187.96 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Pack08" (id 1) (at 187.96 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Value" "330" (id 1) (at 187.96 95.25 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602" (id 2) (at 186.055 96.52 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2972,7 +2972,7 @@
       (reference "C1") (unit 1) (value "470uf") (footprint "Capacitor_SMD:C_Elec_10x10.2")
     )
     (path "/d87f4c9d-1774-438d-90e9-a972eb7d0a40"
-      (reference "C2") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C2") (unit 1) (value "1uf") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/313890c0-83bd-4938-b24c-e14d95894b03"
       (reference "C3") (unit 1) (value ".1uf") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3023,10 +3023,10 @@
       (reference "LEDS2") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal")
     )
     (path "/0312f4d6-fa3a-4cb9-8938-e1a91f425046"
-      (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d24bd43c-0cd7-465f-8e38-700d1e6dac2b"
-      (reference "RN1") (unit 1) (value "R_Pack08") (footprint "Resistor_SMD:R_Array_Convex_8x0602")
+      (reference "RN1") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_8x0602")
     )
     (path "/36fdb679-e63b-4b2d-b8f9-b8363bc1aa92"
       (reference "SW1") (unit 1) (value "io0") (footprint "precise:SW_Push_1P1T_NO_Vertical")
@@ -3089,7 +3089,7 @@
       (reference "C6") (unit 1) (value "1uf") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/8ac962f1-1642-4e9f-83d3-3c58e79c15f9"
-      (reference "C7") (unit 1) (value "100nf") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C7") (unit 1) (value ".1uf") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/82fdb6fd-ccbc-419a-bdcd-08ee1a69dd59"
       (reference "C8") (unit 1) (value ".1uf") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3128,7 +3128,7 @@
       (reference "R2") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/291b2f36-195f-471d-8b62-16d228259ace"
-      (reference "R3") (unit 1) (value "27") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "R3") (unit 1) (value "27") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/785e4899-e430-42d6-ab13-8025a2ef7099"
       (reference "R4") (unit 1) (value "27") (footprint "Resistor_SMD:R_0603_1608Metric")
